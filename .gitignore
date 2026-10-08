@@ -1,0 +1,23 @@
+# Rust build output and rustfmt backups
+/target/
+**/*.rs.bk
+
+# Editor and local assistant state
+.idea/
+.vscode/
+.qoder/
+.claude/
+.agents/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local environment overrides
+.env
+.env.local
+
+# Cargo.lock is intentionally tracked for reproducible daemon builds.
